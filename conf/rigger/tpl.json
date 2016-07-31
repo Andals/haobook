@@ -1,0 +1,8 @@
+{
+    "front_http_conf": {
+        "tpl": "${FRONT_HTTP_CONF_TPL}",
+        "dst": "${FRONT_HTTP_CONF_DST}",
+        "ln": "${FRONT_HTTP_CONF_LN}",
+        "sudo": true
+    }
+}

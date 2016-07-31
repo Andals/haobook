@@ -1,0 +1,21 @@
+{
+    "IS_DEV": "true",
+    "USER": "${USER}",
+    "PRJ_NAME": "haobook",
+    "PRJ_HOME": "__ARG__(prj_home)",
+    "RIGGER_TPL_ROOT": "${PRJ_HOME}/conf/rigger/tpl",
+
+    "ACCESS_LOG_BUFFER": "1",
+    "NGX_PORT": "80",
+    "NGX_DATA_ROOT": "/data/nginx",
+    "NGX_LOG_ROOT": "${NGX_DATA_ROOT}/logs",
+
+    "FRONT_DOMAIN": "${USER}.haobook.com",
+    "FRONT_ACCESS_LOG": "${FRONT_DOMAIN}.log",
+    "FRONT_ERROR_LOG": "${FRONT_DOMAIN}.log.error",
+    "FRONT_HTTP_CONF_TPL": "${RIGGER_TPL_ROOT}/tpl_front_httpd.conf.ngx",
+    "FRONT_HTTP_CONF_DST": "${PRJ_HOME}/conf/http/${USER}_front_http.conf.ngx",
+    "FRONT_HTTP_CONF_LN": "${NGX_DATA_ROOT}/conf/include/${FRONT_DOMAIN}.conf",
+
+    "NGX_EXEC_PREFIX": "/usr/local/bin/dexec nginx"
+}

@@ -1,0 +1,17 @@
+server {
+    listen ${NGX_PORT};
+    server_name ${FRONT_DOMAIN};
+    server_tokens on;
+
+    keepalive_timeout 5;
+
+    root ${PRJ_HOME}/build/html/;
+    index index.html;
+
+    charset utf-8;
+
+    include ${PRJ_HOME}/conf/http/include/gzip.conf;
+
+    access_log ${NGX_LOG_ROOT}/${FRONT_ACCESS_LOG} combinedio buffer=${ACCESS_LOG_BUFFER}k;
+    error_log  ${NGX_LOG_ROOT}/${FRONT_ERROR_LOG};
+}
