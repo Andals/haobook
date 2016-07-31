@@ -17,5 +17,8 @@
     "FRONT_HTTP_CONF_DST": "${PRJ_HOME}/conf/http/${USER}_front_http.conf.ngx",
     "FRONT_HTTP_CONF_LN": "${NGX_DATA_ROOT}/conf/include/${FRONT_DOMAIN}.conf",
 
-    "NGX_EXEC_PREFIX": "/usr/local/bin/dexec nginx"
+    "NGX_EXEC_PREFIX": {
+	"ligang": "/usr/local/bin/dexec nginx",
+	"default": "docker exec nginx-1.8.0 /usr/local/nginx/sbin/nginx"
+    }
 }
