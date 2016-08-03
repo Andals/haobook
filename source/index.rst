@@ -10,7 +10,9 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
+   periodical/index
 
 
 Indices and tables
