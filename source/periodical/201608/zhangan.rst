@@ -113,7 +113,7 @@ Cookie 往往用来保存用户的登录状态，如果用户没有退出登录�
 
 ::
 
-    PTIONS /cors HTTP/1.1
+    OPTIONS /cors HTTP/1.1
     Origin: http://api.example.com
     Access-Control-Request-Method: PUT
     Access-Control-Request-Headers: X-Custom-Header
