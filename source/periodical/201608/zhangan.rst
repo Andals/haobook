@@ -86,7 +86,7 @@ Cookie 往往用来保存用户的登录状态，如果用户没有退出登录�
 简单的跨域请求
 --------------
 
-简单请求就是只
+简单请求就是指
 
 * 使用 GET,HEAD或者POST,而不使用自定义请求头（类似 X-Modified）
 
@@ -102,7 +102,7 @@ Cookie 往往用来保存用户的登录状态，如果用户没有退出登录�
 
 不同于简单请求，预请求需要先发送一个OPTIONS请求给目的站点，来预先访问该跨站点请求是否是安全可信任的。
 
-当具备一下条件就会当成预请求处理：
+当具备以下条件就会当成预请求处理：
 
 * 请求以GET,HEAD或者POST以外的方式请求。再或者POST的数据类型非简单请求的数据类型，即非 application/x-www-form-urlencode,
   multipart/form-data， text/plain，比如说 application/json 或者 application/xml。
