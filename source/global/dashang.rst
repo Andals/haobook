@@ -5,5 +5,5 @@
 
 .. image:: /global/img/dashang.jpg
 
-感谢 `土豪榜 </global/tuhaobang.html>`_ 上的每一位网友，一分钱也是真爱。
+感谢 `土豪榜 </zh_CN/latest/global/tuhaobang.html>`_ 上的每一位网友，一分钱也是真爱。
 
