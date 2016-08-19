@@ -477,5 +477,5 @@ filter链
         }   
     }
 
-.. include:: dashang.rst
+.. include:: ../../global/dashang.rst
 

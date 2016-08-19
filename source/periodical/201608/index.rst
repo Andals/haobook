@@ -12,5 +12,5 @@
     tanyanping
     huangqiuping 
 
-.. include:: dashang.rst 
+.. include:: ../../global/dashang.rst 
 

@@ -174,5 +174,5 @@ Cookie 往往用来保存用户的登录状态，如果用户没有退出登录�
 * `Cross-Origin Resource Sharing <https://www.w3.org/TR/cors/>`_
 * `Same-origin policy <https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy>`_
 
-.. include:: dashang.rst
+.. include:: ../../global/dashang.rst
 
