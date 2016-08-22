@@ -13,6 +13,7 @@ Contents:
    :titlesonly:
 
    periodical/index
+   personal/index
 
 
 Indices and tables
