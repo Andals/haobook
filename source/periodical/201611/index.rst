@@ -1,16 +1,12 @@
-.. _periodical-201608:
+.. _periodical-201611:
 
-2016年8月刊
+2016年11月刊
 ============
 
 .. toctree::
     :maxdepth: 2
 
-    ligang
     zhangan
-    haoyankai
-    tanyanping
-    huangqiuping 
 
 .. include:: ../../global/dashang.rst 
 
